@@ -1,8 +1,11 @@
 {
     "name": "yui-project",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "descrption": "Access YUI projects programmatically",
     "main": "./index.js",
+    "bin": {
+        "yui-project-add-locales-meta": "./cli/yui-project-add-locales-meta.js"
+    },
     "dependencies": {
     },
     "devDependencies": {
