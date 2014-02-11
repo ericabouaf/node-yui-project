@@ -1,0 +1,16 @@
+{
+	"name": "yui-project",
+	"version": "0.0.1",
+	"descrption": "Access YUI projects programmatically",
+
+    "main": "index.js",
+
+	"dependencies": {
+	},
+    "devDependencies": {
+        "vows": "0.7.0"
+    },
+    "scripts": {
+        "test": "vows --spec tests/test_*.js"
+    }
+}
